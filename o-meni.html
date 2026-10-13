@@ -1,0 +1,309 @@
+
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>O meni</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #222;
+        }
+
+        header {
+            background-color: #5d9b5e;
+            color: white;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .ime {
+            font-size: 22px;
+            font-weight: bold;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 30px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 80px 40px;
+        }
+
+        .uvod {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 80px;
+            margin-bottom: 100px;
+        }
+
+        .uvod-tekst {
+            flex: 1;
+        }
+
+        h1 {
+            font-size: 60px;
+            margin-bottom: 10px;
+        }
+        .podnaslov {
+            font-size: 24px;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+
+        .opis {
+            font-size: 18px;
+            line-height: 1.7;
+            max-width: 600px;
+        }
+
+        .foto {
+            width: 280px;
+            height: 350px;
+            background-color: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #777;
+            font-size: 18px;
+        }
+
+        .informacije {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 80px;
+            margin-bottom: 100px;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-bottom: 30px;
+        }
+
+        .informacije p {
+            line-height: 1.6;
+        }
+
+        .vjestine {
+            list-style: none;
+            padding: 0;
+        }
+
+        .vjestine li {
+            padding: 12px 0;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .interesi {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 60px;
+        }
+
+        .interes {
+            border: 1px solid #222;
+            padding: 15px 22px;
+            background-color: white;
+        }
+
+    
+        .cv-gumb {
+            display: inline-block;
+            padding: 14px 25px;
+            background-color: #111;
+            color: white;
+            text-decoration: none;
+        }
+
+        .cv-gumb:hover {
+            background-color: #444;
+        }
+
+        @media (max-width: 700px) {
+
+            header {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            nav a {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            .uvod {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            h1 {
+                font-size: 45px;
+            }
+
+            .informacije {
+                grid-template-columns: 1fr;
+                gap: 50px;
+            }
+
+        }
+.foto {
+    width: 220px;
+    height: 280px;
+}
+
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+    </style>
+</head>
+
+
+<body>
+
+    <header>
+
+        <div class="ime">
+            Andrea Matijić
+        </div>
+
+        <nav>
+            <a href="index.html">Početna</a>
+            <a href="projekti.html">Projekti</a>
+            <a href="o-meni.html">O meni</a>
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
+
+    </header>
+
+
+    <main>
+                <section class="uvod">
+
+            <div class="uvod-tekst">
+
+                <h1>O meni</h1>
+
+                <p class="podnaslov">
+                    Studentica sam na TVZ-u smjer graditeljstvo s interesom za projektiranje, tehničko crtanje i digitalne alate u građevinarstvu.
+                </p>
+
+                <p class="opis">
+                    Volim učiti, razvijati nova znanja i upoznavati nove programe. Trenutno vrlo dobro poznajem AutoCAD, dok u Revitu imam osnovno znanje koje želim dalje proširivati i razvijati. Svoje znanje razvijam kroz praktične projekte i rad u programima, pri čemu mi je važno razumjeti kako se ono može primijeniti u stvarnom svijetu i pronaći praktična rješenja za različite zadatke.
+                </p>
+
+                <p class="opis">
+                    U slobodno vrijeme volim isprobavati nove ideje, raditi na vlastitim projektima i istraživati nove programe i načine rada. Na taj način nastojim proširiti svoje znanje, steći nova iskustva i kontinuirano se razvijati. :)
+                </p>
+
+            </div>
+
+            <div class="foto">
+    <img src="bilder/portfolio_bild.jpeg" alt="Moja fotografija">
+</div>
+
+        </section>
+
+        <section class="informacije">
+
+            <div>
+
+                <h2>Obrazovanje ukratko</h2>
+
+                <p>
+                    <strong>2025 – danas</strong>
+                </p>
+
+                <p>
+                    prijediplomski stručni smjer graditeljstva<br>
+                    Tehničko veleučilište u Zagrebu
+                </p>
+
+                 <p>
+                    <strong>2023 – 2025</strong>
+                </p>
+
+                <p>
+                    opće srednjoškolsko obrazovanje - državna matura<br>
+                    Dubrovačka privatna gimnazija
+                </p>
+<p>
+                    <strong>2017 – 2023</strong>
+                </p>
+
+                <p>
+                    srednjoškolsko obrazovanje - Mittlere Reife<br>
+                    Josef-Effner-Gymnasium, Njemačka<br>
+                    (matematičko-prirodoslovni smjer)
+
+                
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h2>Vještine</h2>
+
+                <ul class="vjestine">
+
+                    <li>organiziranost i smirenost</li>
+
+                    <li>samostalan rad</li>
+
+                    <li>timski rad i komunikacijske vještine</li>
+
+                    <li>odgovornost i pouzdanost</li>
+
+                    <li>Microsoft Office, VS Code, AutoCAD i Revit </li>
+
+                </ul>
+
+            </div>
+
+        </section>
+
+        <section>
+
+            <p class="opis">
+                   Ako želite saznati više o mom obrazovanju, vještinama i dosadašnjem iskustvu, cijeli CV možete preuzeti ovdje! ↓
+                </p>
+
+            </div>
+
+        </section>
+
+        <section>
+
+            <a href="dokumente/andrea_matijic_cv_hrv.pdf" class="cv-gumb" target="_blank">
+                Preuzmi moj CV
+            </a>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
+

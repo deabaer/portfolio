@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>AutoCAD projekt</title>
+
+    <style>
+      
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #222;
+        }
+
+        header {
+            background-color: #5d9b5e;
+            color: white;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .ime {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 30px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 80px 40px;
+        }
+
+        h1 {
+            font-size: 55px;
+            margin-bottom: 20px;
+        }
+
+        .uvod {
+            font-size: 18px;
+            line-height: 1.7;
+            max-width: 700px;
+            margin-bottom: 80px;
+        }
+
+
+        .crtez {
+            margin-bottom: 80px;
+        }
+
+        h2 {
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+
+        .opis {
+            font-size: 17px;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+
+        .slika {
+            width: 100%;
+            height: 500px;
+            background-color: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #777;
+            border: 1px solid #ccc;
+        }
+
+        .nazad {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 14px 25px;
+            background-color: #111;
+            color: white;
+            text-decoration: none;
+        }
+
+        .nazad:hover {
+            background-color: #444;
+        }
+
+        @media (max-width: 700px) {
+            header {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            nav a {
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+
+            h1 {
+                font-size: 42px;
+            }
+
+            .slika {
+                height: 300px;
+            }
+        }
+        .crtez-slika {
+    width: 100%;
+    max-width: 900px;
+    display: block;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.crtez-slika:hover {
+    opacity: 0.9;
+}
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+
+        <div class="ime">
+            Andrea Matijić
+        </div>
+
+        <nav>
+            <a href="index.html">Početna</a>
+            <a href="projekti.html">Projekti</a>
+            <a href="o-meni.html">O meni</a>
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <h1>AutoCAD projekt</h1>
+
+        <p class="uvod">
+            Ovaj projekt izrađen je u programu AutoCAD.
+            U sklopu projekta izrađeni su različiti tehnički
+            crteži koji prikazuju pojedine dijelove objekta.
+        </p>
+
+       <section class="crtez">
+    <h2>Temelj</h2>
+
+    <p class="opis">
+        ________
+    </p>
+
+    <a href="dokumente/Matijić_Andrea_izvedbeni_temelj.pdf" target="_blank">
+        <img src="bilder/temelj.jpeg"
+             alt="Tlocrt temelja"
+             class="crtez-slika">
+    </a>
+</section>
+       <section class="crtez">
+    <h2>Podrum</h2>
+
+    <p class="opis">
+       _______
+    </p>
+
+    <a href="dokumente/Matijić_Andrea_izvedbeni_podrum.pdf" target="_blank">
+        <img src="bilder/podrum.jpeg"
+             alt="Tlocrt podruma"
+             class="crtez-slika">
+    </a>
+</section>
+
+         <section class="crtez">
+    <h2>Prizemlje</h2>
+
+    <p class="opis">
+          ________
+    </p>
+
+    <a href="dokumente/Matijić_Andrea_izvedbeni_prizemlje.pdf" target="_blank">
+        <img src="bilder/prizemlje.jpeg"
+             alt="Tlocrt prizemlja"
+             class="crtez-slika">
+    </a>
+</section>
+
+        <section class="crtez">
+    <h2>Kat</h2>
+
+    <p class="opis">
+         ________
+    </p>
+
+    <a href="dokumente/Matijić_Andrea_izvedbeni_kat.pdf" target="_blank">
+        <img src="bilder/kat.jpeg"
+             alt="Tlocrt kата"
+             class="crtez-slika">
+    </a>
+</section>
+
+
+        <section class="crtez">
+    <h2>Krov</h2>
+
+    <p class="opis">
+        ________
+    </p>
+
+    <a href="dokumente/Matijić_Andrea_izvedbeni_krov.pdf" target="_blank">
+        <img src="bilder/krov.jpeg"
+             alt="Tlocrt krova"
+             class="crtez-slika">
+    </a>
+</section>
+
+        <section class="crtez">
+    <h2>Presjek 1</h2>
+
+    <p class="opis">
+          ________
+    </p>
+
+    <a href="dokumente/Matijić_Andrea_izvedbeni_presjek1.pdf" target="_blank">
+        <img src="bilder/presjek1.jpeg"
+             alt="Tlocrt presjeka 1"
+             class="crtez-slika">
+    </a>
+</section>
+
+
+
+        <section class="crtez">
+    <h2>Presjek 2</h2>
+
+    <p class="opis">
+         ________
+    </p>
+
+    <a href="dokumente/Matijić_Andrea_izvedbeni_presjek2.pdf" target="_blank">
+        <img src="bilder/presjek2.jpeg"
+             alt="Tlocrt presjeka 2"
+             class="crtez-slika">
+    </a>
+</section>
+
+        <section class="crtez">
+    <h2>Oplate</h2>
+
+    <p class="opis">
+       ________
+    </p>
+
+    <a href="dokumente/Matijić_Andrea_izvedbeni_oplate.pdf" target="_blank">
+        <img src="bilder/oplate.jpeg"
+             alt="Tlocrt oplata"
+             class="crtez-slika">
+    </a>
+</section>
+
+ 
+
+        <!-- Zurück -->
+        <a href="projekti.html" class="nazad">
+            ← Natrag na projekte
+        </a>
+
+    </main>
+
+</body>
+
+</html>
